@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/iconelogo.png" alt="">
+                </div>
+                <div class="redes-sociais" style="margin-top: 16px;">
+                    <ul>
+                        <li><a href=""><img alt="Facebook" title="Facebook" src="./img/facebook.png"></a></li>
+                        <li><a href=""><img alt="Instagram" title="Instagram" src="./img/instagram.png"></a></li>
+                        <li><a href=""><img alt="WhatsApp" title="WhatsApp" src="./img/whatsapp.png"></a></li>
+                        <li><a href=""><img alt="Linkedin" title="Linkedin" src="./img/linkedin.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class=" col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul style="margin-top: 16px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="depoimentos.html">depoimentos</a></li>
+                    <li><a href="blogpessoal.html">Blog pessoal</a></li>
+                    <li class="active"><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input placeholder="Pesquisar aqui" type="text">
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="row divc" id="contatti">
+        <div class="container mt-5">
+            <div class="row" style="height:450px;">
+                <div class="col-md-6 maps" style="margin-top:20px;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6" style="margin-top:20px;">
+                    <form class="form-horizontal" method="post" action="">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Digite para nós:</legend>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="assunto">Assunto:</label>
+                                <div class="col-md-8">
+                                    <input id="assunto" name="assunto" type="text" placeholder="assunto"
+                                        class="form-control input-md">
+                                </div>
+                            </div>
+                            <!-- Textarea -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="textarea">Texto:</label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea1"
+                                        rows="10"></textarea>
+                                </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="nome">Nome:</label>
+                                <div class="col-md-8">
+                                    <input id="nome" name="nome" type="text" placeholder="nome"
+                                        class="form-control input-md">
+                                </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="email">E-mail:</label>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="email"
+                                        class="form-control input-md">
+                                </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="telefone">Telefone:</label>
+                                <div class="col-md-8">
+                                    <input id="telefone" name="telefone" type="text" placeholder="telefone"
+                                        class="form-control input-md">
+                                </div>
+                            </div>
+                            <!-- Button -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="enviar"></label>
+                                <div class="col-md-4">
+                                    <button id="enviar" name="enviar" class="btn btn-primary"
+                                        type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <div class="text-white" style="margin-top:60px;">
+                        <h2 class="text-uppercase mt-4 font-weight-bold">Onde estamos:</h2>
+                        <i class="fas fa-globe mt-3"></i> Piazza del Colosseo, 1, 00184 Roma<br>
+                        <i class="fas fa-globe mt-3"></i> (+55) 54 123456789<br>
+                        <i class="fas fa-globe mt-3"></i> aaboutiquestore@gmail.com<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="col-100 footer">
+            <div class="content">
+                <div class="col-4">
+                    <h3><b>Populr Post</b></h3>
+                    <p>Lorem Ipsum is simply dummy
+                        text of the printing.</p>
+                    <p class="clock">25-September 2013
+                    <p>
+                    <p>Lorem Ipsum is simply dummy
+                        text of the printing.</p>
+                    <p class="clock">25-September 2013
+                    <p>
+                </div>
+                <div class="col-4">
+                    <h3><b>Tags</b></h3>
+                    <p>apps blog blogroll christmas cms coda concert daily design develop dialog drinks envato food fun
+                        gallery gift holiday icon illustration ipad iphone journal jquery label link marketing mobile
+                        motion music photo profession quotation recipes show sound strategy tv typography video</p>
+                </div>
+                <div class="col-4">
+                    <h3><b>Ana Rufatto Store</b></h3>
+                    <br>
+                    <p>
+                        Elevando a autoestima das mulheres desde 2019.
+                        Marca que traduz o estilo moderno representado na personalidade sofisticada e independente da
+                        mulher moderna.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h3><b>Entrar em contato</b></h3>
+                    <br>
+                    <p class="local">Rio Grande do Sul, BR
+                    <p>
+                    <p class="emailico">aaboutiquestore@gmail.com
+                    <p>
+                    <p class="telefoneico">(54) 99663-5442
+                    <p>
+                    <p>Atendimento de Segunda à sábado 8:30 às 18h.
+                    <p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="col-100 footer-2">
+        <div class="content">
+
+            <p class="text-muted text-center">
+                André Luis de Oliveira | Linguagem de Programação para a WEB | 2023/1</br>andreoliveira96@live.com
+        </div>
+    </div>
+</body>
+
+</html>
