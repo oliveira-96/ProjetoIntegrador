@@ -7,6 +7,6 @@
 
 Solicitado a criação de um site institucional, com 5 páginas (home, loja, depoimentos, blog pessoal e contato), dentre elas, especifições de css como navbar e rodapé fixo; slide; lista de produtos; formulário na parte de contato.
 
-Acesse https://oliveira-96.github.io/ProjetoIntegrador/.# ProjetoIntegrador
+Acesse # ProjetoIntegrador
 # ProjetoIntegrador
 # ProjetoIntegrador
