@@ -243,6 +243,32 @@ h3 {
     background: #eeeeee;
 }
 
+.bloco-imagem-dep {
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 6px 0px #646464;
+
+}
+
+.text-position {
+    width: 49%;
+    padding-left: 26%;
+    padding-top: 61%;
+}
+
+.col-dep {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 48%;
+    float: left;
+    position: relative;
+
+}
+
 .content-1 {
     margin: 0 auto;
     width: 980px;
